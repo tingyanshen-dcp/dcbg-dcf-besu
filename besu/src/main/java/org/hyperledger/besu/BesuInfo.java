@@ -24,7 +24,7 @@ import java.util.Optional;
  */
 public final class BesuInfo {
   private static final String CLIENT = "besu";
-  private static final String VERSION = BesuInfo.class.getPackage().getImplementationVersion();
+  private static final String VERSION = "migration-23.10.0";
   private static final String OS = PlatformDetector.getOS();
   private static final String VM = PlatformDetector.getVM();
 
